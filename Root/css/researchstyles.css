@@ -20,7 +20,9 @@
     padding: 0;
 }
 .figure{
-    margin: auto;
+    margin-left: -20%;
+    max-width: fit-content;
+    font-size: small;
 }
 .aside{
     margin-left: 60%;
@@ -32,4 +34,9 @@
     font-style: italic;
     color: #29627e;
     padding-top: 15px;
+}
+.links{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }

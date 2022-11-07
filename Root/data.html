@@ -1,53 +1,54 @@
 <!DOCTYPE html>
-<html class = "all">
+<html class = "all" lang = "en">
     <head>
+        <meta charset="utf-8">
         <title> Data </title>
-        <link rel="stylesheet" href="css/datastyles.css"/>
+        <link rel="stylesheet" href="css/datastyles.css">
     </head>
     
     <body class="main">
         <h1>
             How to organize and analyze research data
         </h1>
-        <p1>
+        <p>
             This short lesson is intended for graduate and advanced undergraduate students undertaking original research projects. After completing the 30-minute lesson, you will be able to to:
             Format raw research data in an Excel spreadsheet for efficient analysis
             Run basic descriptive statistics in Excel
-            Prepare the document for statistical analysis in the software package PASW
+            Prepare the document for statistical analysis in the software package PASW\
+        </p>
             <aside class="aside1">
                 For this lesson, you'll need the following:
                 <ul>
                     <li>Excel</li>
                     <li>PASW</li>
                 </ul>
-                You should already be familiar with:
+                <p>You should already be familiar with:</p>
+                
+                
                 <ul>
                     <li>The basic functions and tools of Excel</li>
                     <li>Descriptive statistics and inferential statistics</li>
                     <li>Research design and how to identify independent variables and dependent variables</li>
                 </ul>
             </aside>
-        </p1>
+        
         <h2>
             Format data for analysis
         </h2>
-        <p2>
-            Make sure the computer you are working on has Microsoft Excel installed. Open the document ToolBox_DataLesson.xls [[[NOTE: NEED LINK TO DOWNLOAD TUTORIAL EXCEL FILE]]] in Excel and follow along with the lesson, taking action as instructed.
-            In the Raw_Dataset spreadsheet, the name of each variable has been entered in the first row of each column.
+        <p>Make sure the computer you are working on has Microsoft Excel installed. Open the document ToolBox_DataLesson.xls [[[NOTE: NEED LINK TO DOWNLOAD TUTORIAL EXCEL FILE]]] in Excel and follow along with the lesson, taking action as instructed.
+            In the Raw_Dataset spreadsheet, the name of each variable has been entered in the first row of each column.</p>
             <ol>
-                <li>>Each variable name must be different from other variable names.</li>
-                <li>>The first variable (in column A) is a unique identifier.</li>
-                <li>>Variable names must start with a letter (not numbers or special characters), so change 4tutorial_types to tutorial_types.</li>
-                <li>>Name variables so that they are intuitive to you. Therefore, change use and useful to perc_ease_of_use and perc_usefulness, respectively.</li>
+                <li>Each variable name must be different from other variable names.</li>
+                <li>The first variable (in column A) is a unique identifier.</li>
+                <li>Variable names must start with a letter (not numbers or special characters), so change 4tutorial_types to tutorial_types.</li>
+                <li>Name variables so that they are intuitive to you. Therefore, change use and useful to perc_ease_of_use and perc_usefulness, respectively.</li>
             </ol>
-
-            Your spreadsheet should look like Figure 1, and it should now be readily apparent that Column F refers to Perceived Usefulness and Column G refers to Perceived Ease of Use.</li>
-
+            <p>Your spreadsheet should look like Figure 1, and it should now be readily apparent that Column F refers to Perceived Usefulness and Column G refers to Perceived Ease of Use.</p>
             <figure class = "figure">
-                <img src="../figures/datalesson_fig3.png"/>
+                <img src="../figures/datalesson_fig3.png">
                 <figcaption> Tutorial type, gender, experience, and task categorical values have been formatted as dichotomous variables.</figcaption>
             </figure>
-            Data values, or rows, have been input for each subject in the experiment.
+            <p>Data values, or rows, have been input for each subject in the experiment.</p>
             <ol>
                 <li>Decide on input conventions and stick to them. In gender, change the "female" value to "F".</li>
                 <li>Separate data into component values whenever possible by adding new columns. For example, tasks_completed values (Y/Y/N) can be broken up into three components. So, add columns task1, task2, and task3, and reformat values appropriately.</li>
@@ -55,27 +56,23 @@
                 <li>Your Raw_Dataset spreadsheet should now look like Figure 2.</li>
             </ol>
             <figure class = "figure">
-                <img src="../figures/datalesson_fig2.png"/>
-                <figcatption>Values for each variable are entered in a consistent format.</figcatption>
+                <img src="../figures/datalesson_fig2.png">
+                <figcaption>Values for each variable are entered in a consistent format.</figcaption>
             </figure>
             <aside class="aside2">
-                Replace categorical data values with "0" or "1" (0=no, 1=yes) to indicate whether or not the value is represented for the given subject/item. This makes the categorical values dichotomous, which gives the researcher maximum flexibility in testing for relationships or correlations.
+                <p>Replace categorical data values with "0" or "1" (0=no, 1=yes) to indicate whether or not the value is represented for the given subject/item. This makes the categorical values dichotomous, which gives the researcher maximum flexibility in testing for relationships or correlations.</p>
             </aside>
-        </p2>
         
-        <p3>
             <ol>
                 <li>Copy the Raw_Dataset values into the Sheet2 tab. Rename this sheet Formatted_Data.</li>
                 <li>Rename columns according to each possible categorical value. Copy and paste the values from the original column.</li>
                 <li>Replace dichotomous data values with "0" or "1" (0=no, 1=yes) using the replace function: Edit > Replace.</li>
                 <li>Your Formatted_Data spreadsheet should now look like Figure 3.</li>
                 <li>In the Formatted_Data sheet, add new columns with Insert > Columns for each distinct value in categorical data columns (tutorial_types, gender, exp_level, task1, task2, and task3). You do not have to add a new column for task1, task2, and task3 because their values are already dichotomous.</li>
-            </ol>
-            
+            </ol>    
             <figure class="figure">
-                <img src="../figures/datalesson_fig3(1).png"/>
-                <figcaption> Tutorial type, gender, experience, and task categorical values have been formatted as dichotomous variables. </figcaption>
+                <img src="../figures/datalesson_fig3(1).png">
+                <figcaption> Tutorial type, gender, experience, and task categorical values have been formatted as dichotomous variables.</figcaption>
             </figure>
-        </p3>
     </body>
 </html>
